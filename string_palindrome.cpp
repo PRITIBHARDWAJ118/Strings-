@@ -9,7 +9,7 @@ int main()
    int i,len,k=0;
    cout<<"Enter a string: ";
    cin>>str1;
-   len=str1.length();
+   len=str1.length(); //length function is usedto find the length of array 
    for(i=(len-1);i>=0;i--)
    {
     if(str1[i]==str1[k])
